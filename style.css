@@ -1,1 +1,26 @@
-
+.navstyle{
+    display: flex;
+    justify-content: end;
+    background: #172621;
+    height: 50px;
+    border-bottom: solid 1px #55665D;
+   
+}
+nav{
+   justify-items: flex-end;
+   position: relative;
+   top:15px;
+   right: 20px;
+   
+    
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #55665D;
+    
+    
+}
+body{
+    background: #172621;
+}
