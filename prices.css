@@ -1,26 +1,151 @@
-.navstyle{
-    display: flex;
-    justify-content: end;
-    background: #172621;
+.rubrik{
     height: 50px;
-    border-bottom: solid 1px #55665D;
-   
-}
-nav{
-   justify-items: flex-end;
-   position: relative;
-   top:15px;
-   right: 20px;
-   
+    width: 800px;
+    margin-top: 60px;
+    border-top: solid 1px #55665D;
+    margin-left: 200px;
+    
+    
     
 }
-nav a{
-    margin: 10px;
-    text-decoration: none;
+.container{
+    height: 200px;
+    width: 800px;
+}
+.cards{
+    display: flex;
+    
+    margin-top: 100px;
+    height: 200px;
+    gap: 10px;
+    margin-left: 170px;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 150px;
+    width: 280px;
+    border: solid 1px #55665D;
+    background: #283b31 ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.card h2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.card p:first-of-type{
+    position: absolute;
+    left: 15px;
+    color: #DD5B0C ;
+    
+    top: -5px;
+    padding-left: 3px;
+    border-top: solid 1px #DD5B0C;
+    border-bottom: solid 1px #DD5B0C;
+    
+    font-family: "Fragment Mono", monospace;
+    font-size: small;
+    
+}
+.card p:last-of-type{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+    width: 850px;
+    
+    margin-left: 180px;
+}
+.price-child{
+    width: auto;
+    height: 100px;
+    border-top:solid 1px #55665D;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.price-child h3{
+    position: absolute;
+    justify-self: start;
     color: #55665D;
-    
+
+}
+.price-child p:first-of-type{
+    position: absolute;
+    top: 30px;
+
+
+}
+.price-child p:last-of-type{
+    position: absolute;
+    right: 10px;
+
+
+
+}
+.message-box{
+    display: flex;
+    height: 70px;
+    width: 850px;
+    margin-left: 180px;
+    border: outset 2px rgb(130, 144, 3);
+    border-radius: 15px;
+    margin-top: 10px;
+    position: relative;
+    background: #283b31;
+}
+.message-box p:first-of-type{
+    position: absolute;
+    left:30px;
+    color: rgb(130, 144, 3);
+}
+.message-box p:last-of-type{
+    position: absolute;
+    left:5px;
+    color: rgb(130, 144, 3);
+    background: #283b31;
+    border-radius: 50%;
+    border: solid 1px rgb(130, 144, 3);
+    width: 15px;
+    padding-left: 8px;
+
+}
+.info-box{
+    display: flex;
+    height: 70px;
+    width: 850px;
+    margin-left: 180px;
+    background: #283b31;
+    margin-top: 30px;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    border: solid 1px #55665D;
+}
+.info-p{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 12px;
+    margin-right: 40px;
     
 }
-body{
-    background: #172621;
+.info-h3{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(193, 190, 190);
 }
