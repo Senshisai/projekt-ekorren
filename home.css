@@ -1,7 +1,88 @@
-h1, h2, h3 {
-font-family: "Big Shoulders", sans-serif;
-text-transform: uppercase;
+h1,
+h2,
+h3 {
+  font-family: "Big Shoulders", sans-serif;
+  text-transform: uppercase;
 }
+
 body {
-font-family: "Karla", sans-serif;
+  font-family: "Karla", sans-serif;
+}
+
+.bike-icon {
+  width: 170px;
+  height: 170px;
+}
+
+.bike-icon {
+  position: static;
+  width: 280px;
+  height: 280px;
+  background: none;
+  border-radius: 0;
+  color: #f5f3ea;
+}
+
+.hero {
+  display: flex;
+  min-height: 480px;
+}
+
+.hero-text {
+  width: 60%;
+  padding: 60px;
+}
+
+.hero-image {
+  width: 40%;
+  background-color: #55665d;
+  position: relative;
+}
+.hero-text h1 {
+  font-size: 72px;
+  line-height: 0.9;
+  margin: 0 0 30px;
+}
+
+.hero-text p {
+  max-width: 420px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons a {
+  padding: 14px 22px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #dd5b0c;
+  color: #172621;
+}
+
+.btn-secondary {
+  border: 1px solid #55665d;
+  color: #55665d;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #55665d;
+}
+
+.hero-image span {
+  align-self: flex-end;
+  font-family: "Fragment Mono", monospace;
+  font-size: 14px;
 }
